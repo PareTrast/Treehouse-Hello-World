@@ -18,4 +18,4 @@ $('button').click(function(){
 
 setTimeout(function() {
   location.reload();
-}, 20000);
+}, 7000);
