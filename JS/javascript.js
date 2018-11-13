@@ -1,3 +1,4 @@
+//Array for list of quotes.  
 var encourage = [
   "Keep on Pushing! Things will get better.  Trust me!",
   "Do not let what you cannot do interfere with what you can do- John Wooden",
@@ -7,8 +8,14 @@ var encourage = [
   "Forget past mistakes.  Forget Failures.  Forget about everything except what you're going to do now and do it.- WIlliam Durant",
 ];
 
+//using .length will allow me to add more quotes later.
+
 var randomQuote = encourage[Math.floor(Math.random()*(encourage.length))];
 console.log(randomQuote);
 $('button').click(function(){
     alert(randomQuote);
 });
+
+setTimeout(function() {
+  location.reload();
+}, 20000);
