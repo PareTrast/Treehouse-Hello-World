@@ -10,4 +10,3 @@ myself as anything special, but if I can help others out then that will make me 
 The second reason I chose the name is because WOE is a play on words.  A WOE is defined as a great sorrow or distress.  I want to take that 
 negative word and spin it in a positive light.
 
-After clicking the button you will recieve a random quote.  Refresh the page after each generation.
