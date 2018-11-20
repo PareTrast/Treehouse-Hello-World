@@ -65,14 +65,21 @@ footer {
 /*=============================================================
 My Media Queries
 ==============================================================*/
-
-@media (min-width: 720px) {
-  
+/*less than 500px will put buttons in vertical format*/
+@media (max-width: 450px) {
+ ul li {
+     display: block;
+     float: left;
+     width: 100%;
+     height: 75px;
+     text-align: center;
+    }
+ .radio {
+     width: 100%; 
+    }
+      
 }
 
-@media (max-width: 2160px) {
-  
-}
 
 
 /*===============================================================
