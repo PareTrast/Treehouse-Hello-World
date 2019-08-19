@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="CSS/normalize.css">
     <link rel="stylesheet" href="CSS/styles.css">
+    <script type="text/javascript" src="jquery-3.3.1.js"></script>
 
     <title> Words of Encouragement </title>
 
@@ -28,22 +29,26 @@
 
     <div>
       <span><p> How do you feel? </p></span>
-
+      <br>
+    <span>
+       
+       <p id="encouragement"></p>
+</span>
       <span>
-      <button type="button" id=submit onClick=randomQuote> Sad </button>
+      <input type="button" id="sad" onclick="randomQuoteS();"> Sad </button>
       <br>
       <button type="button" id=submit onClick=randomQuote> Alone</button>
       <br>
       <button type="button" id=submit onClick=randomQuote> Angry </button>
       <br>
       <button type="button" id=submit onClick=randomQuote> Anxious </button>
-      <!--<ul id="feelings"> <!--buttons added for effect. later will add specific arrays for each button
-        <li> <input type="button" id="sad" name="emotion" value="Sad" onClick=randomQuote></li>
+      <!--<ul id="feelings">--> <!--buttons added for effect. later will add specific arrays for each button-->
+        <!--<li> <input type="button" id="sad" name="emotion" value="Sad" onClick=randomQuoteS></li>
         <li> <input type="button" id="alone" name="emotion" value="Alone"></li>
         <li> <input type="Button" id="angry" name="emotion" value="Angry"></li>
         <li> <input type="button" id="anxious" name="emotion" value="Anxious"></li>
         <li> <input type="button" id="exhausted" name="emotion" value="Exhausted"></li>
-      </ul> -->
+      </ul>-->
       </span>
     <!--  <span><button type="button" id=submit onClick=randomQuote> Encouraging Words </button></span> commented out to remove -->
 
