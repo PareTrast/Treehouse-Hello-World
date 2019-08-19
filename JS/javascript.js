@@ -1,6 +1,6 @@
 //Array for list of quotes.  
-var encourage = [
-  "Keep on Pushing! Things will get better.  Trust me!",
+/*var encourage = [
+  "Some days are just bad days, that's all. You have to experience sadness to know happiness, and I remind myself that not every day is going to be a good day, that's just the way it is!-Dita Von Teese",
   "Do not let what you cannot do interfere with what you can do- John Wooden",
   "Start by doing what's necessary; then do what is possible; and suddenly you are doing the impossible.- St. Francis of Assisi",
   "The greatest discovery of my generation is that a human being can change his life by changing his attitude of mind.- William James",
@@ -22,15 +22,43 @@ var encourage = [
    "Remember, no one can make you feel inferior without your consent.- Elanor Roosevelt",
    "Self-esteem is a powerful force within each of us...Self-esteem is the experience that we are appropriate to life and to the requirements of life.- Nathaniel Branden",
    
-];
+];*/
 
 //using .length will allow me to add more quotes later.
 
-var randomQuote = encourage[Math.floor(Math.random()*(encourage.length))];
+/*var randomQuote = encourage[Math.floor(Math.random()*(encourage.length))];
 console.log(randomQuote);
 $('button').click(function(){
     alert(randomQuote);
     if(alert('Get More Encouraging Words!')){} //used this instead of automatic refresh to restart function
     else window.location.reload();
-});
+});*/
+
+/*var sad = document.getElementById(sad)
+
+var randomQuoteSad =
+encourageS[Math.floor(Math.random()*(encourageS.length))]*/
+
+
+<script language = "javascript">
+
+function randomQuoteS() {
+
+var encourageS = new Array;
+  encourageS[0] = "Some days are just bad days, that's all. You have to experience sadness to know happiness, and I remind myself that not every day is going to be a good day, that's just the way it is!-Dita Von Teese";
+  encourageS[1] = "Even a happy life cannot be without a measure of darkness, and the word happy would lose its meaning if it were not balanced by sadness. It is far better take things as they come along with patience and equanimity.-
+Carl Jung";
+
+var randomS = Math.floor(Math.random()*(encourageS.length));
+
+document.getElementById("textbox").value = encourageS[randomS];
+
+window.onload = randomQuoteS
+
+];
+
+</script>
+
+
+
 
