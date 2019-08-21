@@ -40,15 +40,14 @@ var randomQuoteSad =
 encourageS[Math.floor(Math.random()*(encourageS.length))]*/
 
 
-<script language = "javascript">
 
 function randomQuoteS() {
 
-var encourageS = new Array;
-  encourageS[0] = "Some days are just bad days, that's all. You have to experience sadness to know happiness, and I remind myself that not every day is going to be a good day, that's just the way it is!-Dita Von Teese";
-  encourageS[1] = "Even a happy life cannot be without a measure of darkness, and the word happy would lose its meaning if it were not balanced by sadness. It is far better take things as they come along with patience and equanimity.-
-Carl Jung";
-
+var encourageS= [
+  "Some days are just bad days, that's all. You have to experience sadness to know happiness, and I remind myself that not every day is going to be a good day, that's just the way it is!-Dita Von Teese",
+  "Even a happy life cannot be without a measure of darkness, and the word happy would lose its meaning if it were not balanced by sadness. It is far better take things as they come along with patience and equanimity.-
+Carl Jung",
+]
 var randomS = Math.floor(Math.random()*(encourageS.length));
 
 document.getElementById("textbox").value = encourageS[randomS];
@@ -57,7 +56,6 @@ window.onload = randomQuoteS
 
 ];
 
-</script>
 
 
 
