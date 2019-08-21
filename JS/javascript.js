@@ -26,12 +26,14 @@ var encourage = [
 
 //using .length will allow me to add more quotes later.
 
-var randomQuote = Math.floor(Math.random()*(encourage.length))
+/*var randomQuote = Math.floor(Math.random()*(encourage.length))*/
 
-function yourQuote(){
+function Quote(){
 var randomQuote = Math.floor(Math.random()*(encourage.length));
-}
+
 document.getElementById('encouragement').innerHTML = encourage[randomQuote];
+}
+
 
 /*console.log(randomQuote);
 $('button').click(function(){
