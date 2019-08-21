@@ -26,13 +26,20 @@ var encourage = [
 
 //using .length will allow me to add more quotes later.
 
-var randomQuote = encourage[Math.floor(Math.random()*(encourage.length))];
-console.log(randomQuote);
+var randomQuote = Math.floor(Math.random()*(encourage.length))
+
+function yourQuote(){
+var randomQuote = Math.floor(Math.random()*(encourage.length));
+}
+document.getElementById('encouragement').innerHTML = encourage[randomQuote];
+
+/*console.log(randomQuote);
 $('button').click(function(){
     alert(randomQuote);
     if(alert('Get More Encouraging Words!')){} //used this instead of automatic refresh to restart function
     else window.location.reload();
-});
+});*/
+
 
 /*var sad = document.getElementById(sad)
 
