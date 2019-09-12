@@ -13,6 +13,7 @@ color: black;
   color: black;
   text-align: center;
   padding: 14px 16px;
+  border-right: 2px solid;
   text-decoration: underline;
   font-size: 22px;
 }
@@ -24,6 +25,11 @@ color: black;
 .blogentry{
   text-align: left;
   border: 5px double;
+}
+
+.blogentry a{
+  text-decoration:underline;
+  color:black;
 }
 #sun {
   display: block;
