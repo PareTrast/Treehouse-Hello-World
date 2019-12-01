@@ -15,10 +15,11 @@
     <div class="Nav">
       <a class="active" href="index.html">Home</a>
       <a class="blog"   href="blog.html">Blog</a>
+      <a class="resources" href="resources.html">Resources</a>
 
   </div>
-    <div>
-      <h1> Welcome to Words of Encouragement </h1>
+    <div class="content">
+    <h1> Welcome to Words of Encouragement </h1>
     </div>
 
     <div id="welcome">
@@ -43,34 +44,25 @@
        <br>
       <span>
       <button type="button" id="encourage" onClick="Quote()"> Encouraging Words </button>
-      <br>
-      <!--<button type="button" id=submit onClick=randomQuote> Alone</button>
-      <br>
-      <button type="button" id=submit onClick=randomQuote> Angry </button>
-      <br>
-      <button type="button" id=submit onClick=randomQuote> Anxious </button>-->
-      <!--<ul id="feelings">--> <!--buttons added for effect. later will add specific arrays for each button-->
-        <!--<li> <input type="button" id="sad" name="emotion" value="Sad" onClick=randomQuoteS></li>
-        <li> <input type="button" id="alone" name="emotion" value="Alone"></li>
-        <li> <input type="Button" id="angry" name="emotion" value="Angry"></li>
-        <li> <input type="button" id="anxious" name="emotion" value="Anxious"></li>
-        <li> <input type="button" id="exhausted" name="emotion" value="Exhausted"></li>
-      </ul>-->
-      </span>
-    <!--  <span><button type="button" id=submit onClick=randomQuote> Encouraging Words </button></span> commented out to remove -->
-
-
-    </div>
+<br>
+<span>
+    <p id="date"></p>
+<script>
+date = document.getElementById("date");
+date.innerHTML = new Date();
+</script>
+    <p>Make Every Day Count</p>
+</span>
+</div>
      <script
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
    <script src="JS/javascript.js"></script>
-
-  </body>
     <br>
     <br>
-  <footer>
+  <footer class='footer'>
       <div><p> Giving Encouraging Words since 2018 </p></div>
     </footer>
+</body>
 </html>
